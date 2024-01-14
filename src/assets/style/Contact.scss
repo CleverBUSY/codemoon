@@ -1,0 +1,170 @@
+
+.element-animation {
+  opacity: 0;
+  transform: translateY(20px);
+}
+.element-animation.element-show {
+  opacity: 1;
+  transition: all 1.5s;
+  transform: translateY(0%);
+}
+.section {
+  .container {
+    .contact-content {
+      display: flex;
+      justify-content: space-between;
+
+      .leftContent {
+        margin-top: 2rem;
+        h1 {
+          background: linear-gradient(to right, #dad6ca 0%, #706780 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          font-size: 46px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          margin-bottom: 20px;
+        }
+        p {
+          color: #fff;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 26px;
+        }
+        .icons {
+          display: flex;
+          flex-direction: column;
+          width: 40px;
+          height: 40px;
+          gap: 30px;
+          margin-top: 4rem;
+        }
+        .iconFlex {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          width: 150px;
+          cursor: pointer;
+        }
+      }
+      .rightContent {
+        display: flex;
+        width: 548px;
+        height: 500px;
+        padding: 50px;
+        margin-left: 130px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 35px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        border: 1px solid #4b5563;
+        margin-top: 2rem;
+        input {
+          background-color: transparent;
+          border: 0;
+          border-bottom: 2px solid #706780 !important;
+          display: block;
+          width: 100%;
+          padding: 15px 0;
+          font-size: 18px;
+          outline: none;
+          color: #fff;
+          transition: 1s;
+        }
+        input:hover {
+          border-bottom: 2px solid #4b5563 !important;
+        }
+        input::placeholder {
+          display: flex;
+          width: 450px;
+          height: 50px;
+          padding: 6px 8px;
+          align-items: center;
+          gap: 10px;
+          flex-shrink: 0;
+          transition: 1s;
+        }
+        input:hover::placeholder {
+          background: linear-gradient(to right, #dad6ca 0%, #706780 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          transition: 0.9s;
+        }
+        button {
+          border: none;
+          position: relative;
+          width: 450px;
+          height: 50px;
+          border-radius: 5px;
+          border: 1px solid #706780;
+          padding: 0;
+          z-index: 2;
+          -webkit-mask: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGSbIZM2SkEucfJz7KrMhitQLWjdvm9GP9HA&usqp=CAU")
+            no-repeat 50% 50%;
+          mask: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGSbIZM2SkEucfJz7KrMhitQLWjdvm9GP9HA&usqp=CAU")
+            no-repeat 50% 50%;
+          -webkit-mask-size: 100%;
+          cursor: pointer;
+          background-color: transparent;
+          transform: translateY(8px);
+        }
+
+        button:after {
+          content: "Отправить";
+          position: absolute;
+          font-size: 19px;
+          color: black;
+          border: none;
+          left: 0;
+          right: 0;
+          top: 60px;
+          text-shadow: 3px 1px 2px rgba(0, 0, 0, 0.6);
+          transition: all 1s ease;
+        }
+
+        button:hover:after {
+          top: 9px;
+          color: black;
+        }
+        button:before {
+          content: "";
+          position: absolute;
+          width: 0;
+          height: 100%;
+          background: linear-gradient(
+            90deg,
+            rgba(2, 0, 36, 1) 0%,
+            rgba(218, 214, 202, 1) 0%,
+            rgba(218, 214, 202, 1) 0%,
+            rgba(94, 98, 99, 1) 100%
+          );
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+          transition: all 1s ease;
+          border: none;
+        }
+
+        button:hover:before {
+          width: 100%;
+          border: 1px solid black !important;
+        }
+      }
+    }
+    .contentimage {
+      margin-top: 5rem;
+      img {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+      }
+    }
+
+    hr {
+      width: 1200px;
+    }
+  }
+}

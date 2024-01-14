@@ -1,0 +1,108 @@
+.footer {
+  .footer-wrapper {
+    position: relative;
+    .footer_logo {
+      font-size: 56px;
+      font-weight: 400;
+      line-height: 81px;
+      letter-spacing: 0em;
+      text-align: left;
+      background: linear-gradient(to right, #dad6ca 0%, #706780 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-top: 60px;
+    }
+    .footer_flex {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .footer_left {
+        .flex {
+          display: flex;
+          align-items: start;
+          gap: 30px;
+          p {
+            background: linear-gradient(to right, #dad6ca 0%, #706780 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 28px;
+            font-weight: 400;
+            line-height: 40px;
+            letter-spacing: 0em;
+          }
+          h3 {
+            background: linear-gradient(to right, #dad6ca 0%, #706780 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 29px;
+            letter-spacing: 0em;
+            text-align: left;
+          }
+          .flex-2 {
+            h3 {
+              font-size: 18px;
+              font-weight: 400;
+              line-height: 26px;
+              letter-spacing: 0em;
+              text-align: left;
+              color: white;
+            }
+          }
+        }
+      }
+    }
+    img {
+      width: 300px;
+      padding-top: 20px;
+    }
+    .footer_btn {
+      font-size: 50px;
+      color: white;
+      border: 1px solid #706780;
+      background-color: black;
+      position: absolute;
+      width: 50px;
+      border-radius: 5px;
+      right: 0;
+      height: 70px;
+      top: 220px;
+      cursor: pointer;
+    }
+  }
+}
+.footer_wrapper_2 {
+  margin-top: 120px;
+  border-top: 1px solid #dad6ca;
+  padding-bottom: 10px;
+  .footer_border_top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+    p {
+      background: linear-gradient(to right, #dad6ca 0%, #706780 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 26px;
+      letter-spacing: 0em;
+      text-align: left;
+      margin-top: 20px;
+      margin-left: 50px;
+    }
+    img {
+      width: 150px;
+    }
+    .program {
+      display: flex;
+      align-items: center;
+      margin-right: 100px;
+      gap: 30px;
+      img {
+        width: 24px;
+      }
+    }
+  }
+}
