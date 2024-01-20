@@ -26,7 +26,7 @@ const Projects = () => {
               {
                 teamData.slice(0,3).map((item, index) => (
                   <div className="content__card_pro">
-                      <img className="cardimg" src={item.avatar} alt="" />
+                      <img className="cardimg card_images_alpins" src={item.avatar} alt="" />
                       <h1 className="card_logo">{item.name}</h1>
                     <p className="card_text">
                       {item.smalltarget}

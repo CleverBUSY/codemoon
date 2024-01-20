@@ -221,7 +221,7 @@ const Home = () => {
 
                 <div className="sc_3_card_flex">
 
-                  <div className="card_1">
+                  <div className="card_1 card_none" >
                     <h1 className="card_logo">ОкурМэн</h1>
                     <p className="card_text">
                       ОкурМэн - это веб-сайт где можете узнать информацию про
@@ -260,7 +260,7 @@ const Home = () => {
                     </Link>
                   </div>
 
-                  <div className="card_1">
+                  <div className="card_1  card_none">
                     <h1 className="card_logo">BAINUR</h1>
                     <p className="card_text">
                       ОкурМэн - это веб-сайт где можете узнать информацию про
@@ -303,7 +303,7 @@ const Home = () => {
                       ОкурМэн - это веб-сайт где можете узнать информацию про
                       курсы в сфере проммирование
                     </p>
-                    <div className="card_img_flex">
+                    <div className="card_img_flex card_images_alpins">
                       <img
                         style={{ width: "24px" }}
                         src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS61vKK67UMkrtp6zVnjqVmBvW2TbR5PJTIermbAsyQHkavb5FS"
