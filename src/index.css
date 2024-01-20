@@ -9,6 +9,7 @@
   width: 100%;
   max-width: 1300px;
   margin: 0 auto;
+  border: 2px solid red;
 }
 
 body {
@@ -48,3 +49,5 @@ body {
   --transDur: 0.3s;
   font-size: calc(16px + (32 - 16) * (100vw - 320px) / (1280 - 320));
 }
+
+

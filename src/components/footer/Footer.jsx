@@ -17,8 +17,10 @@ const Footer = () => {
         <div className="container">
           <div className="footer-wrapper">
             <h1 className="footer_logo">Контакты</h1>
+
             <div className="footer_flex">
               <div className="footer_left">
+
                 <div className="flex">
                   <div className="flex-1">
                     <p>/Позвоните нам:</p>
@@ -34,22 +36,25 @@ const Footer = () => {
                     <h3>codemoon.studio@gmail.com</h3>
                   </div>
                 </div>
+
               </div>
               <div className="footer_right">
-                <img src={footerRightImg} alt="" />
+                <img className="imagess-right" src={footerRightImg} alt="" />
               </div>
             </div>
+
             <button onClick={handleScrollToTop} className="footer_btn">↑</button>
           </div>
         </div>
       </footer>
+
       <div className="footer_wrapper_2">
         <div className="container">
           <div className="footer_border_top">
-            <p>© CODEMOON. All right reserved 2024</p>
             <Link to="/">
               <img onClick={handleScrollToTop} src={LogoImg} alt="" />
             </Link>
+            <p>© CODEMOON. All right reserved 2024</p>
             <div className="program">
               <a href="https://t.me/+996500443423"><img src={Telegram} alt="" /></a>
               <a href="https://www.instagram.com/codemoon.studio?igsh=MTkxYnByMnZhOTRjdA=="><img src={Instagram} alt="" /></a>

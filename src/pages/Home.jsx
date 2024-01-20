@@ -122,8 +122,6 @@ const Home = () => {
   }, []);
 
 
-
-
   return (
     <>
       <animated.section className="section__home" style={fadeIn}>
@@ -147,6 +145,8 @@ const Home = () => {
             </div>
           </div>
         </section>
+
+             {/* Мощь Проект */}
         <section className="section__home_2">
           <div className="container">
             <div className="section__home_wrapper">
@@ -211,18 +211,23 @@ const Home = () => {
             </div>
           </div>
         </section>
+
+             {/* Проекты */}
         <section className="section__home_3">
           <div className="container">
             <div className="element-animation">
               <div className="sc__home__wrapper">
                 <h1 className="sc_2_logo">Проекты</h1>
+
                 <div className="sc_3_card_flex">
+
                   <div className="card_1">
                     <h1 className="card_logo">ОкурМэн</h1>
                     <p className="card_text">
                       ОкурМэн - это веб-сайт где можете узнать информацию про
                       курсы в сфере проммирование
                     </p>
+
                     <div className="card_img_flex">
                       <img
                         style={{ width: "24px" }}
@@ -246,6 +251,7 @@ const Home = () => {
                         alt=""
                       />
                     </div>
+
                     <Link onClick={handleScrollToTop} to="/projects">
                       <img className="cardimg" src={contentCardImg} alt="" />
                       <button className="card__btn">
@@ -253,6 +259,7 @@ const Home = () => {
                       </button>
                     </Link>
                   </div>
+
                   <div className="card_1">
                     <h1 className="card_logo">BAINUR</h1>
                     <p className="card_text">
@@ -289,6 +296,7 @@ const Home = () => {
                       </button>
                     </Link>
                   </div>
+
                   <div className="card_1">
                     <h1 className="card_logo">ALPINS</h1>
                     <p className="card_text">
@@ -325,6 +333,7 @@ const Home = () => {
                       </button>
                     </Link>
                   </div>
+
                 </div>
                 <Link to="/Projects">
                   <button onClick={handleScrollToTop} className="vse_Pro">Все проекты</button>
@@ -335,10 +344,12 @@ const Home = () => {
         </section>
       </animated.section>
 
+               {/* Контакты */}
       <section className="section__home_4">
         <div className="container">
           <div className="sc_4_wrapper">
             <div className="contact-content">
+
               <div className="leftContent">
                 <div className="element-animation">
                   <h1>Свяжитесь с нами!</h1>
@@ -372,6 +383,7 @@ const Home = () => {
                   </div>
                 </div>
               </div>
+
               <div className="element-animation">
                 <form action="https://formsubmit.co/sanjarkairatkeldiev@gmail.com" method="POST" className="rightContent">
                   <input type="text" name="name" placeholder="Имя" />
@@ -387,6 +399,7 @@ const Home = () => {
         </div>
       </section>
 
+                 {/* Команда */}
       <section className="section__home_5">
         <div className="container">
           <div className="sc_5_wrapper">
@@ -408,7 +421,8 @@ const Home = () => {
           </div>
         </div>
       </section>
-
+      
+                   {/* Разбор  */}
       <section className="section__home_6">
         <div className="container">
           <div className="sc__6_wrapper">

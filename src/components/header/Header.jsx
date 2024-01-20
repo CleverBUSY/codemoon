@@ -38,6 +38,7 @@ const Header = () => {
                 <img className="images-logo" src={Logo} alt="" />
               </div>
             </Link>
+            
             <div className="navbar">
               <ul  onClick={handleScrollToTop} className="df">
                 <Link className="active" to="/">
@@ -48,6 +49,7 @@ const Header = () => {
                 <Link to="/contact">Контакт</Link>
               </ul>
             </div>
+
             <div className="dark">
               <div className="color">
                 <button className="dark__mood">
