@@ -216,6 +216,7 @@
   .section .section-wrapper .pro-flex .content__card_pro .target {
     max-width: 800px;
     width: 100%;
+    padding: 15px;
   }
   .section .section-wrapper .pro-flex .content__card_pro .cr_stek {
     max-width: 800px;
@@ -225,12 +226,55 @@
    display: flex;
    flex-wrap: wrap;
   }
+  .section .section-wrapper .pro-flex .content__card_pro .text_skill_steg  {
+    padding: 15px;
+  }
+  .section .section-wrapper .pro-flex .content__card_pro .card_text{
+    padding: 15px;
+  }
+  .section .section-wrapper .logo-pro {
+    padding: 15px;
+  }
 }
 
+@media (max-width: 581px) {
+  .section .section-wrapper .pro-flex .content__card_pro .card__btn {
+    width: 140px;
+    font-size: 13px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 521px) {
+  .section .section-wrapper .logo-pro-text {
+    font-size: 40px;
+  }
+.section .section-wrapper .pro-flex .content__card_pro .card_logo {
+  font-size: 30px;
+} 
+.section .section-wrapper .pro-flex .content__card_pro .cr_opis {
+  font-size: 30px;
+}
+.section .section-wrapper .pro-flex .content__card_pro .cr_stek {
+  font-size: 30px;
+}
+.section .section-wrapper .pro-flex .content__card_pro .target {
+  
+}
+}
 
 @media (max-width: 500px) {
   .section .section-wrapper .pro-flex .content__card_pro .cardimg {
     height: 400px;
+  }
+  .section .section-wrapper .pro-flex .content__card_pro .text_skill_steg {
+    font-size: 14px;
+  }
+  .section .section-wrapper .pro-flex .content__card_pro .text_skill_steg {
+
+  }
+  .section .section-wrapper .pro-flex .content__card_pro .card_img_flex {
+    font-size: 10px;
   }
 }
 
