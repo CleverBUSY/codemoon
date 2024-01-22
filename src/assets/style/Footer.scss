@@ -225,3 +225,17 @@
 }
 
 
+
+
+@media (max-width: 396px) {
+  .footer_wrapper_2 .footer_border_top p {
+    margin-left: -10px;
+  }
+}
+
+
+@media (max-width: 380px) {
+  .footer .footer-wrapper .footer_btn {
+    margin-right: 20px;
+  }
+}

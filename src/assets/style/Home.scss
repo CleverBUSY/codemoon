@@ -447,18 +447,13 @@
   }
 }
 
-
-
-
-
-
 /*//////////////////////// media /////////////////////////// */
 
 @media (max-width: 1279px) {
   .sc_3_card_flex {
     display: flex;
     flex-wrap: wrap;
-  } 
+  }
   .rightContent {
     margin-left: -70px;
   }
@@ -490,7 +485,6 @@
   // }
 }
 
-
 @media (max-width: 1114px) {
   .section__home_4 .sc_4_wrapper .contact-content {
     display: flex;
@@ -499,11 +493,10 @@
   .section__home_4 .sc_4_wrapper .contact-content .rightContent {
     width: 450px;
   }
-  .section__home_4 .sc_4_wrapper .contact-content .rightContent button  {
+  .section__home_4 .sc_4_wrapper .contact-content .rightContent button {
     width: 350px;
   }
 }
-
 
 @media (max-width: 1037px) {
   .section__home_4 .sc_4_wrapper .contact-content {
@@ -511,7 +504,6 @@
     gap: 240px;
   }
 }
-
 
 @media (max-width: 975px) {
   .section__home_4 .sc_4_wrapper .contact-content {
@@ -538,20 +530,18 @@
   .section__home_4 .sc_4_wrapper .contact-content .rightContent {
     width: 700px;
   }
-  .section__home_4   .sc_4_wrapper .contact-content .leftContent {
+  .section__home_4 .sc_4_wrapper .contact-content .leftContent {
     margin-left: -176px;
   }
 }
-
-
 
 @media (max-width: 916px) {
   .section__home_4 .sc_4_wrapper .contact-content .rightContent {
     margin-left: -90px;
   }
-  .section__home_4   .sc_4_wrapper .contact-content .leftContent {
+  .section__home_4 .sc_4_wrapper .contact-content .leftContent {
     width: 600px;
-  } 
+  }
 }
 
 @media (max-width: 803px) {
@@ -561,14 +551,24 @@
   .section__home_3 .sc__home__wrapper .sc_3_card_flex .card_1 {
     width: 500px;
   }
-  .section__home_3 .sc__home__wrapper .sc_3_card_flex .card_1 .cardimg .card_images_alpins {
+  .section__home_3
+    .sc__home__wrapper
+    .sc_3_card_flex
+    .card_1
+    .cardimg
+    .card_images_alpins {
     width: 1000px;
-  }  
+  }
 }
 
+@media (max-width: 530px) {
+  .section__home_3 .sc__home__wrapper .sc_3_card_flex .card_1 {
+    width: 400px;
+  }
+}
 
 @media (max-width: 444px) {
-  .footer .footer-wrapper .footer_flex .footer_left .flex  {
+  .footer .footer-wrapper .footer_flex .footer_left .flex {
     display: flex;
     flex-wrap: wrap;
   }
@@ -578,6 +578,14 @@
   }
 }
 
+@media (max-width: 436px) {
+  .section__home_3 .sc__home__wrapper .sc_3_card_flex .card_1 {
+    width: 300px;
+  }
+  .section__home_3 .sc__home__wrapper .sc_3_card_flex .card_1 .cardimg {
+    width: 250px;
+  }
+}
 
 @media (max-width: 430px) {
   .section__home_5 .sc_5_wrapper .sc_5_map .flexComands {
@@ -585,37 +593,70 @@
     height: 540px;
   }
   .flexComands {
-  .user__content{
-    .avatar__user {
-      width: 90% !important;
-    }
-    .user__name {
-      font-size: 25px !important;
-
-    }
-    .text__user {
-      font-size: 19px !important;
-      border: 1px solid red;
-    }
-    .flex__skill {
-      display: grid;
-      grid-template-columns: 1fr  1fr 1fr 1fr;
-      margin-left: 30px;
-      width: 70% !important;
-      border: 1px solid red;
-      .img__content {
-        display: flex;
-        border: 1px solid white;
-        flex-wrap: wrap;
-        .img__user__skill {
-          border: 1px solid red;
+    .user__content {
+      .avatar__user {
+        width: 90% !important;
+      }
+      .user__name {
+        font-size: 25px !important;
+      }
+      .text__user {
+        font-size: 19px !important;
+      }
+      .flex__skill {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        margin-left: 30px;
+        width: 70% !important;
+        .img__content {
+          display: flex;
+          flex-wrap: wrap;
+          .img__user__skill {
+          }
         }
       }
     }
   }
+}
+
+@media (max-width: 400px) {
+  .section__home_5 .sc_5_wrapper .sc_5_map .flexComands {
+    width: 320px;
+    height: 400px;
+  }
+  .flexComands {
+    .user__content {
+      .avatar__user {
+        width: 80% !important;
+      }
+      .user__name {
+        margin-left: 30px;
+        font-size: 20px !important;
+      }
+      .text__user {
+        margin-left: 30px !important;
+        font-size: 15px !important;
+        width: 80%;
+      }
+      .flex__skill {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        margin-left: 30px;
+        width: 70% !important;
+        .img__content {
+          display: flex;
+          flex-wrap: wrap;
+        }
+      }
+    }
   }
 }
 
-
-
-
+@media (max-width: 337px) {
+  .section__home_3 .sc__home__wrapper .sc_3_card_flex .card_1 {
+    width: 250px;
+  }
+  .section__home_3 .sc__home__wrapper .sc_3_card_flex .card_1 .cardimg {
+    width: 210px;
+  }
+}
