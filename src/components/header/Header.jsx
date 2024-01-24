@@ -4,10 +4,13 @@ import { CiDark } from 'react-icons/ci';
 import Logo from '../../assets/media/logotip.svg';
 import '../../assets/style/Header.scss';
 import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
+import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 const Header = () => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [isVisible, setIsVisible] = useState(true);
+  
+  const [openBurger, setOpenBurger] = React.useState(false);
 
   const handleScrollToTop = () => {
     scroll.scrollToTop();
@@ -40,6 +43,7 @@ const Header = () => {
             </Link>
             
             <div className="navbar">
+              <div className='block-list'>
               <ul  onClick={handleScrollToTop} className="df">
                 <Link className="active" to="/">
                   Главный
@@ -48,15 +52,50 @@ const Header = () => {
                 <Link to="/Projects">Проекты</Link>
                 <Link to="/contact">Контакт</Link>
               </ul>
-            </div>
+              </div>
 
-            <div className="dark">
+          <div className="burger">
+             <AiOutlineMenu onClick={() => setOpenBurger(true)} />
+        </div>
+
+        {openBurger && (
+              <div className="overlay-burger" onClick={()=>setOpenBurger(false) }>
+                <div className="nav-link burger flex-column">
+                  <Link className="white" to="/">Главный</Link>
+                  <Link className="white" to="/comands">Команда</Link>
+                  <Link className="white" to="/Projects">Проекты</Link>
+                  <Link className="white" to="/contact">Контакт</Link>
+
+                  {/* <div className="dark">
               <div className="color">
                 <button className="dark__mood">
                   <CiDark className="ciDark" />
                 </button>
               </div>
+            </div> */}
+               
+               <div className="closeMenu burger">
+                  <AiOutlineClose onClick={() => setOpenBurger(false)} />
+                </div>
+
+             
+
+
+                </div>
+                <div className="closeMenu burger">
+                  <AiOutlineClose onClick={() => setOpenBurger(false)} />
+                </div>
+              </div>
+            )}
             </div>
+
+            {/* <div className="dark">
+              <div className="color">
+                <button className="dark__mood">
+                  <CiDark className="ciDark" />
+                </button>
+              </div>
+            </div> */}
           </div>
         </div>
       </header>
