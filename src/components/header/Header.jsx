@@ -78,9 +78,6 @@ const Header = () => {
                   <AiOutlineClose onClick={() => setOpenBurger(false)} />
                 </div>
 
-             
-
-
                 </div>
                 <div className="closeMenu burger">
                   <AiOutlineClose onClick={() => setOpenBurger(false)} />
@@ -88,14 +85,6 @@ const Header = () => {
               </div>
             )}
             </div>
-
-            {/* <div className="dark">
-              <div className="color">
-                <button className="dark__mood">
-                  <CiDark className="ciDark" />
-                </button>
-              </div>
-            </div> */}
           </div>
         </div>
       </header>
