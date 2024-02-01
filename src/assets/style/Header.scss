@@ -174,11 +174,11 @@
     position: absolute;
     top: 7rem;
     right: 1.7rem;
-    color: #fff;
-    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #fff;
+    padding: 10px;
     border-radius: 50%;
     border: 2px solid white;
 }
@@ -206,13 +206,10 @@
       height: 100vh;
       display: flex;
       column-count: 2;
-      
-      
       justify-content: center;
       align-items: center;
       top: 0;
       left: 0;
        z-index: 9999;
-       
     }
 }

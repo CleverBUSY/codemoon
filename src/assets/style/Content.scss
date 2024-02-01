@@ -58,6 +58,7 @@
 }
 .flex__content {
   display: flex;
+  justify-content: center;
   .avatar__content {
     width: 450px;
     border: 1px solid #706780;
@@ -224,4 +225,102 @@
 .text-nav {
   max-height: 80px;
   overflow-y: auto;
+}
+
+
+
+//////////////////////////////  media  ///////////////////////////
+
+@media (max-width: 1117px) {
+  .section__2 .section__2-wrapper .section2-card {
+    display: none;
+  }
+  .element-animation.element-show {
+    padding: 12px;
+  }
+}
+
+
+@media (max-width: 1000px) {
+  .content-img__skill img {
+    width: 25px;
+  }
+}
+
+
+@media (max-width: 940px) {
+  .content-img__skill img {
+    width: 20px;
+  }
+}
+
+
+@media (max-width: 885px) {
+  .flex__content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .content-img__skill img {
+    width: 30px;
+  }
+}
+
+
+@media (max-width: 846px) {
+  .section__2 .section__2-wrapper .lorem .target {
+    width: 100%;
+    max-width: 846px;
+  }
+  
+}
+
+
+@media (max-width: 790px) {
+  .section__2 .section__2-wrapper .lorem .skills .text-skill  {
+    padding: 5px;
+  }
+}
+
+
+@media (max-width: 532px) {
+  .content-img__skill {
+    width: 50px;
+  }
+  .content-img__skill img  {
+    width: 25px;
+  }
+}
+
+
+@media (max-width: 473px) {
+  .content-img__skill img  {
+    width: 20px;
+  }
+  .flex__content .avatar__content {
+    width: 400px;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .flex__content .avatar__content {
+    width: 350px;
+  }
+  .content-img__skill {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+  }
+}
+
+
+@media (max-width: 375px) {
+  .flex__content .avatar__content {
+    width: 300px;
+  }
+  .content-img__skill {
+    display: flex;
+    flex-wrap: wrap;
+    width: 260px;
+  }
 }

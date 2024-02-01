@@ -109,13 +109,15 @@
           cursor: pointer;
           background-color: transparent;
           transform: translateY(8px);
+          color: white;
+          font-size: 17px;
         }
 
         button:after {
           content: "Отправить";
           position: absolute;
           font-size: 19px;
-          color: black;
+          color: white !important;
           border: none;
           left: 0;
           right: 0;
@@ -124,33 +126,7 @@
           transition: all 1s ease;
         }
 
-        button:hover:after {
-          top: 9px;
-          color: black;
-        }
-        button:before {
-          content: "";
-          position: absolute;
-          width: 0;
-          height: 100%;
-          background: linear-gradient(
-            90deg,
-            rgba(2, 0, 36, 1) 0%,
-            rgba(218, 214, 202, 1) 0%,
-            rgba(218, 214, 202, 1) 0%,
-            rgba(94, 98, 99, 1) 100%
-          );
-          left: 50%;
-          top: 50%;
-          transform: translate(-50%, -50%);
-          transition: all 1s ease;
-          border: none;
-        }
 
-        button:hover:before {
-          width: 100%;
-          border: 1px solid black !important;
-        }
       }
     }
     .contentimage {

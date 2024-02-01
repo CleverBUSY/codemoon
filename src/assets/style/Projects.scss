@@ -237,6 +237,22 @@
   }
 }
 
+
+@media (max-width: 796px) {
+  .section .section-wrapper .pro-flex .content__card_pro .target:hover {
+    transition: 0.4s ease-in-out;
+    background: linear-gradient(to right, #dad6ca 0%, #706780 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent !important;
+    letter-spacing: 0.1px;
+    transform: scaleY(1.02);
+    width: 100%;
+    max-width: 790px;
+    // width: ;
+    font-size: 22.2px;
+  }
+}
+
 @media (max-width: 581px) {
   .section .section-wrapper .pro-flex .content__card_pro .card__btn {
     width: 140px;
